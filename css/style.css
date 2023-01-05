@@ -47,10 +47,53 @@ nav ul li a {
 .btn-primary {
     padding: 18px 35px;
     background: #FD6E0A;
-    color: #FFFFFF;
+    border: none;
 }
 
 .btn {
     border-radius: 5px;
     font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* Banner  */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+    margin: 5px 0px 20px 0px;
+}
+
+.banner p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.banner .btn-primary{
+    padding: 19px 17px !important;
+    
+}
+.banner .btn-secondary{
+    padding: 18px 24px;
+    color:#FD6E0A !important;
+    border: 1px solid #FD6E0A;
+    margin-left: 30px;
 }
